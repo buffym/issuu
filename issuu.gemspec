@@ -67,8 +67,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
-      s.add_development_dependency(%q<rspec>, [">= 2.4.0"])
-      s.add_development_dependency(%q<rspec>, [">= 2.4.0"])
+      s.add_dependency(%q<rspec>, [">= 2.4.0"], [">= 2.4.0"])
       s.add_runtime_dependency(%q<activesupport>, [">= 3.0.3"])
       s.add_runtime_dependency(%q<multipart-post>, [">= 0"])
     else
@@ -79,8 +78,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_dependency(%q<rcov>, [">= 0"])
-      s.add_dependency(%q<rspec>, [">= 2.4.0"])
-      s.add_dependency(%q<rspec>, [">= 2.4.0"])
+      s.add_dependency(%q<rspec>, [">= 2.4.0"], [">= 2.4.0"])
       s.add_dependency(%q<activesupport>, [">= 3.0.3"])
       s.add_dependency(%q<multipart-post>, [">= 0"])
     end
@@ -92,8 +90,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     s.add_dependency(%q<rcov>, [">= 0"])
-    s.add_dependency(%q<rspec>, [">= 2.4.0"])
-    s.add_dependency(%q<rspec>, [">= 2.4.0"])
+    s.add_dependency(%q<rspec>, [">= 2.4.0"], [">= 2.4.0"])
     s.add_dependency(%q<activesupport>, [">= 3.0.3"])
     s.add_dependency(%q<multipart-post>, [">= 0"])
   end
